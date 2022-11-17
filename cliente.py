@@ -21,4 +21,5 @@ modifedSentence = clientSocket.recv(2048)
 #resposta do servidor
 print(('do Servidor: '), modifedSentence.decode('utf-8'))
 
+#feixar a conexão do cliente
 clientSocket.close()
