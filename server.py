@@ -25,7 +25,7 @@ while 1:
     sentence = connectionSocket.recv(1024)
 
     #fazer o envio do arquivo html
-    connectionSocket.send(os.chdir('static'))
+    connectionSocket.send(os.chdir('index.html'))
 
     #feixar a conexão do servidor
     connectionSocket.close()
